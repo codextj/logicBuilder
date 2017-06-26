@@ -15,22 +15,21 @@ import java.util.Scanner;
       ```
 
         
-        >find n req terms
-        >for input 2 req no. of terms to make pyramid is 3 ie 2+1
-        >for input 4 req no. of terms to make pyramid is 10 ie 4+3+2+1
+       // >find n req terms
+       // >for input 2 req no. of terms to make pyramid is 3 ie 2+1
+       // >for input 4 req no. of terms to make pyramid is 10 ie 4+3+2+1
         
  ```java    
-        int numOfTerms=0;
-        while(width>0)
-        {       
-        numOfTerms = numOfTerms + width;
-        width -=1;}
-      ```
-      
+    int numOfTerms=0;
+    while(width>0)
+    {       
+    numOfTerms = numOfTerms + width;
+    width -=1;}
+ 
+ ```
       
         //at each loop width decreases by 1 ie as we go up the pyramid
         //System.out.println(numOfTerms);// for width==4 numOfTerms==10
-        
         //now we have to generate numOfTerms
         
  ```java
