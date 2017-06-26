@@ -12,7 +12,7 @@ import java.util.Scanner;
         Scanner scan = new Scanner(System.in);
         int width= scan.nextInt();
         int printPyRows = width;
-      ```
+```
 
         
        // >find n req terms
@@ -20,11 +20,11 @@ import java.util.Scanner;
        // >for input 4 req no. of terms to make pyramid is 10 ie 4+3+2+1
         
  ```java    
-    int numOfTerms=0;
-    while(width>0)
-    {       
-    numOfTerms = numOfTerms + width;
-    width -=1;}
+        int numOfTerms=0;
+        while(width>0)
+        {       
+        numOfTerms = numOfTerms + width;
+        width -=1;}
  
  ```
       
@@ -52,8 +52,9 @@ import java.util.Scanner;
               diff-=1;
             }
             }
-          ```
+ ```
             //saving terms in an array
+    ```java
           i++;
              strPyramid[i]=terms;
           
@@ -79,5 +80,6 @@ import java.util.Scanner;
                     }
                 System.out.println();  
                }       
-    }    
-}
+             }    
+           }
+    ```
