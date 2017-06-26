@@ -54,7 +54,7 @@ import java.util.Scanner;
             }
  ```
             //saving terms in an array
-    ```java
+   ```java
           i++;
              strPyramid[i]=terms;
           
@@ -82,4 +82,4 @@ import java.util.Scanner;
                }       
              }    
            }
-    ```
+   ```
