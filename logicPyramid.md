@@ -59,28 +59,27 @@ import java.util.Scanner;
           strPyramid[i]=terms;
    ```        
              to generate next term in series
+             
          ```java    
                k+=2;}
-         ```     
-         
-         
-            generate Pyramid
-       ```java 
-               int nums=0;
-               for(int xi=0;xi<printPyRows;xi++) 
-               {
-                    for(int yj=0;yj<printPyRows-xi;yj++)
-                    {
-                       System.out.print("   "); 
-                    }
-              
-                    for(int zk=0;zk<=xi;zk++) 
-                    {
-                       System.out.print(strPyramid[nums]+" ");
-                       nums++;
-                    }
-                System.out.println();  
-               }       
-             }    
-            }
-       ```
+         ```    
+             generate Pyramid
+            ```java 
+                   int nums=0;
+                   for(int xi=0;xi<printPyRows;xi++) 
+                   {
+                        for(int yj=0;yj<printPyRows-xi;yj++)
+                        {
+                           System.out.print("   "); 
+                        }
+                  
+                        for(int zk=0;zk<=xi;zk++) 
+                        {
+                           System.out.print(strPyramid[nums]+" ");
+                           nums++;
+                        }
+                    System.out.println();  
+                      }       
+                    }    
+                   }
+            ```
