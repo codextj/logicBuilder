@@ -53,19 +53,20 @@ import java.util.Scanner;
             }
             }
  ```
-            //saving terms in an array
+           saving terms in an array
    ```java
           i++;
-             strPyramid[i]=terms;
-          
-
-             System.out.println(terms+" "+strPyramid[i]);//to check 
-             k+=2;}
-           
+          strPyramid[i]=terms;
+   ```        
              to generate next term in series
-        
-              generate Pyramid
-              int nums=0;
+         ```java    
+               k+=2;}
+         ```     
+         
+         
+            generate Pyramid
+       ```java 
+               int nums=0;
                for(int xi=0;xi<printPyRows;xi++) 
                {
                     for(int yj=0;yj<printPyRows-xi;yj++)
@@ -81,5 +82,5 @@ import java.util.Scanner;
                 System.out.println();  
                }       
              }    
-           }
-   ```
+            }
+       ```
